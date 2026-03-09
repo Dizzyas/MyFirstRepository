@@ -1,118 +1,162 @@
-# 编程代码库uuu
+# Code Base
 
-## 这是我的第一个github仓库
+> 一个整理和分享代码片段的仓库
 
-### 2023-01-08 13:46
+## 📋 简介
 
-`Flask_web`在Gitee哪里,这里主要是以后的学习
+这是一个用于整理、分享和学习各种编程语言代码片段的仓库。包含常用的算法、数据结构、工具函数、项目模板等。
 
-### 2023-01-08 14:13
+## 🗂️ 目录结构
 
-我刚刚把我以前的所有的学习python的代码给 到了Github上,以后学习的java学习任务或者是习题也会传到github上面去
+```
+Code_base/
+├── algorithms/          # 算法实现
+│   ├── sorting/        # 排序算法
+│   ├── searching/      # 搜索算法
+│   └── dynamic-programming/ # 动态规划
+├── data-structures/    # 数据结构
+│   ├── linked-list/    # 链表
+│   ├── tree/          # 树结构
+│   ├── graph/         # 图结构
+│   └── hash-table/    # 哈希表
+├── languages/          # 不同编程语言
+│   ├── python/        # Python 代码
+│   ├── javascript/    # JavaScript 代码
+│   ├── java/          # Java 代码
+│   └── cpp/           # C++ 代码
+├── utils/             # 工具函数
+│   ├── string-utils/  # 字符串处理
+│   ├── file-utils/    # 文件操作
+│   └── math-utils/    # 数学计算
+├── templates/         # 项目模板
+│   ├── web-app/       # Web 应用模板
+│   ├── cli-tool/      # CLI 工具模板
+│   └── api-server/    # API 服务器模板
+└── examples/          # 示例代码
+    ├── web-examples/  # Web 示例
+    ├── mobile-examples/ # 移动端示例
+    └── desktop-examples/ # 桌面应用示例
+```
 
-### 2023-01-09
+## 🚀 快速开始
 
-今天试一试手机玩java版我的世界
+### 克隆仓库
+```bash
+git clone https://github.com/Dizzyas/Code_base.git
+cd Code_base
+```
 
-### 2023-02-01
+### 使用示例
+```python
+# 示例：使用排序算法
+from algorithms.sorting.quick_sort import quick_sort
 
-学习java了
+arr = [3, 6, 8, 10, 1, 2, 1]
+sorted_arr = quick_sort(arr)
+print(sorted_arr)  # [1, 1, 2, 3, 6, 8, 10]
+```
 
-### 2023-02-11 22:37
+## 📚 内容说明
 
-javadoc 命令 `javadoc -d temp -author -version JavadocComment.java`
+### 算法部分
+- **排序算法**：冒泡排序、快速排序、归并排序、堆排序等
+- **搜索算法**：二分查找、深度优先搜索、广度优先搜索等
+- **动态规划**：背包问题、最长公共子序列、最短路径等
 
-### 2024-8-29
+### 数据结构
+- **基础数据结构**：数组、链表、栈、队列
+- **高级数据结构**：二叉树、红黑树、图、哈希表
+- **并发数据结构**：线程安全队列、并发哈希表
 
-I'm come back
+### 编程语言
+- **Python**：数据分析、Web开发、自动化脚本
+- **JavaScript**：前端开发、Node.js后端、浏览器扩展
+- **Java**：企业级应用、Android开发
+- **C++**：系统编程、游戏开发、高性能计算
 
-开始更新自己的neovim配置文件
+## 🛠️ 开发工具
 
-<<<<<<< HEAD
+### 推荐工具
+- **代码编辑器**：VS Code, IntelliJ IDEA, PyCharm
+- **版本控制**：Git, GitHub Desktop
+- **测试框架**：pytest, Jest, JUnit
+- **文档工具**：Markdown, Sphinx, JSDoc
 
-### 2024-09-04
+### 开发环境配置
+```bash
+# Python 环境
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 
-电脑上链接github仓库
-可以直接在电脑上push代码了
+# Node.js 环境
+npm install
+```
 
-### 2024-09-13
+## 🤝 贡献指南
 
-平板玩neovim(lazy.nvim)
- f4ca323 (update configure)
+欢迎贡献代码！请遵循以下步骤：
 
-### 2024-09-15
+1. **Fork 仓库**
+2. **创建分支** (`git checkout -b feature/AmazingFeature`)
+3. **提交更改** (`git commit -m 'Add some AmazingFeature'`)
+4. **推送到分支** (`git push origin feature/AmazingFeature`)
+5. **创建 Pull Request**
 
-continue git push / rebase / only-ff
-搞了打半气
+### 代码规范
+- 遵循各语言的官方编码规范
+- 添加必要的注释和文档
+- 编写单元测试
+- 保持代码简洁和可读性
 
-### 2024-09-15
+## 📖 学习资源
 
-under computer
-学会了几个git指令
-更新本地仓库
-`git fetch`
-`git merge origin/main`
-update local repository
+### 在线学习平台
+- [LeetCode](https://leetcode.com/) - 算法练习
+- [Codecademy](https://www.codecademy.com/) - 编程学习
+- [freeCodeCamp](https://www.freecodecamp.org/) - 免费编程课程
 
-### 2024-09-15
+### 参考书籍
+- 《算法导论》
+- 《设计模式：可复用面向对象软件的基础》
+- 《代码大全》
 
-pull to the tablet again.
-也是第一次用平板搭建了一个虚拟服务器，手机和板子都能访问，以后学前段又有帮助了
-`ifconfig` -> ip , (8080)
+### 视频教程
+- [B站编程教程](https://www.bilibili.com/)
+- [YouTube 编程频道](https://www.youtube.com/)
 
-### 2024-11-23
+## 📄 许可证
 
-`http.server`and html`<img><h1><h2><p><em><title><meta>`等等，完成了第二部分的第四章节，创造了一个简单的网页
-还通过这些命令在手机浏览器上debug网页的变化，方便一节,也用python内置的http访问模块可以查看get-state
-[click](http://192.168.1.13:8000/index.html)
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
 
-### 2024-11-24
+## 📞 联系方式
 
-update *LazyVim*
-2024-11-25
+- **GitHub**: [@Dizzyas](https://github.com/Dizzyas)
+- **邮箱**: [你的邮箱地址]
+- **博客**: [你的博客链接]
 
-### 2024-11-26 01:33
+## 🙏 致谢
 
-完成了ranger图标配置,配置每天整.代码没写过了
+感谢所有为这个项目做出贡献的人！
 
-### 2024-12-07
+---
 
-[d051465a-a2ac-4ced-a723-f827ee721b52](http://www.github.com/)
+⭐️ **如果这个仓库对你有帮助，请给它一个 Star！** ⭐️
 
-### 2024-12-17
+## 📈 更新日志
 
-**Pluging**
-[Trans.nvim](https://github.com/JuanZoran/Trans.nvim)
+### [1.0.0] - 2026-03-06
+#### 新增
+- 创建仓库
+- 添加基础目录结构
+- 添加 README.md 文档
 
-### 28/12/2024
+#### 计划
+- [ ] 添加更多算法实现
+- [ ] 完善各语言示例代码
+- [ ] 添加项目模板
+- [ ] 编写详细的使用文档
 
-clearning nvim_config
+---
 
-### 30/12/2024
-
-今天也是把我的github仓库清理了一下，把重复的文件删了。
-
-### 2025-05-18
-
-Hi username! You've successfully authenticated, but Github does not provide shell access.
-
-### 2025-05-24
-
-我没有办法把这个readme软链接到我的termux目录里，没有系统权限，所以我以后可能要直接在这里编写我的readme文件了。
-
-### 2025-05-24 22:16
-
-我直接把GitHub的仓库git到这里了，add-safe一下就行了，保存了我就可以在去termux里面去提交。
-
-git pull 可以直接同步我的GitHub repo学到了。以后我就可以在这里编辑我的readme文件，那边就可以同步，在改我的代码了。
-
-git pull发现有问题，就可以跟这提示去解决，一般的话，在原仓库里只能是绿色状态，才能没得问题的同步仓库。
-也可以去GitHub的软件里去写readme。
-
-如果我的文件在本地更改了，但是还没有`git add .`我也可以直接`git checkout -- <file>`，如果是已经`git add .`了的我也可以`git reset HEAD <file>`，撤回。
-
-### 2025-12-18
-运动解剖学更新在另外一个仓库
-
-### 2026-3-6
-仓库改名,仓库整理.
+*(用了openclaw)*
